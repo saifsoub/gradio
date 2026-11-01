@@ -504,7 +504,7 @@
 						<InstallSnippet {current_language} {cli_flavor} />
 
 						<p class="padded">
-							2. Find the API endpoint below corresponding to your desired
+							2. Find the API service address below corresponding to your desired
 							function in the app. Copy the code snippet, replacing the
 							placeholder values with your own input data.
 							{#if space_id}If this is a private Space, you may need to pass
@@ -540,7 +540,7 @@
 								parse the results, combining these two requests into one command
 								for ease of use.
 								<br />&nbsp;<br />
-								If your endpoint accepts files, you must first upload them via a
+								If your service address accepts files, you must first upload them via a
 								<code>POST</code> to <code>/upload</code>, then reference the
 								returned path with the <code>meta</code> key:
 								<code

@@ -99,9 +99,9 @@ Named API endpoints: 1
      - [Textbox] value_0: str (value)
 ```
 
-This shows us that we have 1 API endpoint in this space, and shows us how to use the API endpoint to make a prediction: we should call the `.predict()` method, providing a parameter `input_audio` of type `str`, which is a `filepath or URL`.
+This shows us that we have 1 API service address in this space, and shows us how to use the API service address to make a prediction: we should call the `.predict()` method, providing a parameter `input_audio` of type `str`, which is a `filepath or URL`.
 
-We should also provide the `api_name='/predict'` argument. Although this isn't necessary if a Gradio app has a single named endpoint, it does allow us to call different endpoints in a single app if they are available. If an app has unnamed API endpoints, these can also be displayed by running `.view_api(all_endpoints=True)`.
+We should also provide the `api_name='/predict'` argument. Although this isn't necessary if a Gradio app has a single named service address, it does allow us to call different endpoints in a single app if they are available. If an app has unnamed API endpoints, these can also be displayed by running `.view_api(all_endpoints=True)`.
 
 ### Making a prediction
 

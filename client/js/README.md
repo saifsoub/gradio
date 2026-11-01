@@ -104,7 +104,7 @@ The gradio client returns an object with a number of methods and properties:
 
 #### `predict`
 
-The `predict` method allows you to call an api endpoint and get a prediction result:
+The `predict` method allows you to call an api service address and get a prediction result:
 
 ```ts
 import { Client } from "@gradio/client";
@@ -117,7 +117,7 @@ const result = await app.predict("/predict");
 
 ##### `endpoint`
 
-This is the endpoint for an api request and is required. The default endpoint for a `gradio.Interface` is `"/predict"`. Explicitly named endpoints have a custom name. The endpoint names can be found on the "View API" page of a space.
+This is the service address for an api request and is required. The default service address for a `gradio.Interface` is `"/predict"`. Explicitly named endpoints have a custom name. The service address names can be found on the "View API" page of a space.
 
 ```ts
 import { Client } from "@gradio/client";
@@ -128,7 +128,7 @@ const result = await app.predict("/predict");
 
 ##### `payload`
 
-The `payload` argument is generally required but this depends on the API itself. If the API endpoint depends on values being passed in then the argument is required for the API request to succeed. The data that should be passed in is detailed on the "View API" page of a space, or accessible via the `view_api()` method of the client.
+The `payload` argument is generally required but this depends on the API itself. If the API service address depends on values being passed in then the argument is required for the API request to succeed. The data that should be passed in is detailed on the "View API" page of a space, or accessible via the `view_api()` method of the client.
 
 ```ts
 import { Client } from "@gradio/client";
@@ -143,7 +143,7 @@ const result = await app.predict("/predict", {
 
 #### `submit`
 
-The `submit` method provides a more flexible way to call an API endpoint, providing you with status updates about the current progress of the prediction as well as supporting more complex endpoint types.
+The `submit` method provides a more flexible way to call an API service address, providing you with status updates about the current progress of the prediction as well as supporting more complex service address types.
 
 ```ts
 import { Client } from "@gradio/client";
@@ -168,7 +168,7 @@ const app = await Client.connect("user/space-name", {
 });
 ```
 
-`"data"` updates are issued when the API computes a value, the callback provided as the second argument will be called when such a value is sent to the client. The shape of the data depends on the way the API itself is constructed. This event may fire more than once if that endpoint supports emmitting new values over time.
+`"data"` updates are issued when the API computes a value, the callback provided as the second argument will be called when such a value is sent to the client. The shape of the data depends on the way the API itself is constructed. This event may fire more than once if that service address supports emmitting new values over time.
 
 `"status` updates are issued when the status of a request changes. This information allows you to offer feedback to users when the queue position of the request changes, or when the request changes from queued to processing.
 

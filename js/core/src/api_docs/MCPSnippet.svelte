@@ -314,7 +314,7 @@
 			<p class="file-upload-explanation">
 				The <code>upload_files_to_gradio</code> tool uploads files from your
 				local <code>UPLOAD_DIRECTORY</code> (or any of its subdirectories) to
-				the Gradio app. This is needed because MCP servers require files to be
+				the Gradio app. This is needed because tool servers require files to be
 				provided as URLs. You can omit this tool if you prefer to upload files
 				manually. This tool requires
 				<a
@@ -332,8 +332,8 @@
 		</a>
 	</p>
 {:else}
-	This Gradio app can also serve as an MCP server, with an MCP tool
-	corresponding to each API endpoint. To enable this, launch this Gradio app
+	This Gradio app can also serve as a tool server, with an MCP tool
+	corresponding to each API service address. To enable this, launch this Gradio app
 	with <code>.launch(mcp_server=True)</code> or set the
 	<code>GRADIO_MCP_SERVER</code>
 	env variable to

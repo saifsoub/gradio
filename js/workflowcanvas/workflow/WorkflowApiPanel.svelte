@@ -162,7 +162,7 @@
 				<div>
 					<div class="api-title-main">API</div>
 					<div class="api-title-sub">
-						Call <strong>{workflowName}</strong> programmatically — one endpoint per
+						Call <strong>{workflowName}</strong> programmatically — one service address per
 						subgraph
 					</div>
 				</div>

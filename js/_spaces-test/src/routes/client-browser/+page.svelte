@@ -176,7 +176,7 @@
 {#if app_info}
 	<hr />
 	<p>
-		This endpoint accepts {app_info.parameters.length
+		This service address accepts {app_info.parameters.length
 			? app_info.parameters.length
 			: "no"} piece{app_info.parameters.length < 1 ||
 		app_info.parameters.length > 1

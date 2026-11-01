@@ -169,8 +169,8 @@
 			</div>
 			<code class="font-light text-md mb-2">mdabidhussain</code>
 			<div class="relative pr-4 text-lg font-light">
-				Documentation RAG system. Transform GitHub documentation repositories
-				into accessible MCP servers.
+				Documentation source based answers system. Transform GitHub documentation repositories
+				into accessible tool servers.
 			</div>
 			<img src={DocMCP} alt="Doc-MCP UI Screenshot" class="m-2 mt-3 p-5" />
 		</a>
@@ -251,7 +251,7 @@
 			</div>
 			<code class="font-light text-md mb-2">czakop</code>
 			<div class="relative pr-4 text-lg font-light">
-				Specialized MCP server tailored for chess, designed to enhance
+				Specialized tool server tailored for chess, designed to enhance
 				interactions by providing structured chess-related information and
 				analysis.
 			</div>

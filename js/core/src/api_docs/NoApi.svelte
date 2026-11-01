@@ -16,7 +16,7 @@
 		</code>
 	</p>
 	<p>
-		To expose an API endpoint of your app in this page, set the <code>
+		To expose an API service address of your app in this page, set the <code>
 			api_name
 		</code>
 		parameter of the event listener.

@@ -54,7 +54,7 @@
 		<div
 			class="relative pr-4 text-lg font-light text-gray-600 dark:text-gray-200"
 		>
-			Human-in-the-loop safety middleware for MCP servers. Require explicit
+			Human-in-the-loop safety middleware for tool servers. Require explicit
 			approval before state-mutating operations.
 		</div>
 	</a>
@@ -83,7 +83,7 @@
 			<div
 				class="relative pr-4 text-lg font-light text-gray-600 dark:text-gray-200"
 			>
-				This server allows you to create and deploy other MCP servers on Hugging
+				This server allows you to create and deploy other tool servers on Hugging
 				Face Spaces.
 			</div>
 		</a>
@@ -111,7 +111,7 @@
 				class="relative pr-4 text-lg font-light text-gray-600 dark:text-gray-200"
 			>
 				AI-powered portfolio analysis with transparent multi-agent MCP
-				orchestration
+				task coordination
 			</div>
 		</a>
 		<a
@@ -180,7 +180,7 @@
 		<div
 			class="relative pr-4 text-lg font-light text-gray-600 dark:text-gray-200"
 		>
-			AI agent that connects to your car via an embedded MCP server to provide
+			AI agent that connects to your car via an embedded tool server to provide
 			real-time diagnostics and insights.
 		</div>
 	</a>
@@ -292,7 +292,7 @@
 		<div
 			class="relative pr-4 text-lg font-light text-gray-600 dark:text-gray-200"
 		>
-			AI that makes MCP servers with block-code.
+			AI that makes tool servers with block-code.
 		</div>
 	</a>
 
@@ -319,7 +319,7 @@
 			<div
 				class="relative pr-4 text-lg font-light text-gray-600 dark:text-gray-200"
 			>
-				Control your drone using MQTT commands through the MCP server
+				Control your drone using MQTT commands through the tool server
 			</div>
 		</a>
 		<a
@@ -655,7 +655,7 @@
 		<div
 			class="relative pr-4 text-lg font-light text-gray-600 dark:text-gray-200"
 		>
-			Autonomous Machine Learning MCP server powered by Blaxel
+			Autonomous Machine Learning tool server powered by Blaxel
 		</div>
 	</a>
 
